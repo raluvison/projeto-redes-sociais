@@ -8,7 +8,7 @@
 
 html, body {
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
 }
 
 body {
@@ -22,12 +22,13 @@ main {
 }
 
 section#phone {
-    height: 627px;
-    width: 311px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(0.8);
+    
+    height: 627px;
+    width: 311px;
     background: url(../images/frame-iphone.png) no-repeat;
 }
 
@@ -37,4 +38,14 @@ iframe#tela {
     left: 22px;
     width: 269px;
     height: 471px;
+}
+
+section#social {
+    display: inline-block;
+}
+
+.buttom {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }
