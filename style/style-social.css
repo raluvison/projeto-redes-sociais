@@ -22,6 +22,7 @@
             font-size: 2em;
             font-weight: bolder;
             text-decoration: none;
+            margin-top: 0;
         }
 
         a:hover {
